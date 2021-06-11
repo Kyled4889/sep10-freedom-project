@@ -1,29 +1,136 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
+    <title>Freedom Project</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+<script>
+  
+ 
+</script>
+</head>
+
+  <body data-spy="scroll" data-target="#navbar-example">
+
+    <nav id="topNav" class="navbar navbar-full navbar-static-top navbar-dark bg-inverse">
+        <div class="container">
+            <button class="navbar-toggler hidden-md-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                &#9776;
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+            <div class="collapse navbar-toggleable-sm" id="collapsingNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#grid">Grid</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt ex nulla, PEtiam ac orci pulvinar sapien porta pharetra vel sit amet magna. Duis a ullamcorper nunc.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt ex nulla, PEtiam ac orci pulvinar sapien porta pharetra vel sit amet magna. Duis a ullamcorper nunc.</p>
+      </div>
+    </div>
+
+    <div class="container">
+        <section id="grid">
+            <h2>Title</h2>
+            <p>Text here<em>bigger</em> paragrapgh</p>
+            <p>Text here<code>sm</code> Paragrapgh<code>xs</code>, <code>sm</code>, <code>md</code>, <code>lg</code>, and <code>xl</code> (for example, <code>class="col-sm-6</code>).</p>
+
+            <div class="grid-example">
+              
+                <div class="row">
+                  <div class="col-sm-6">.col-sm-6</div>
+                  <div class="col-sm-6">.col-sm-6</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">.col-sm-12</div>
+                </div>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt ex nulla, PEtiam ac orci pulvinar sapien porta pharetra vel sit amet magna. Duis a ullamcorper nunc.</p>
+
+            <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>&nbsp;</th>
+                    <th>
+                      Extra small
+                      <small>&lt;34em</small>
+                    </th>
+                    <th>
+                      Small
+                      <small>&ge;34em</small>
+                    </th>
+                    <th>
+                      Medium
+                      <small>&ge;48em</small>
+                    </th>
+                    <th>
+                      Large
+                      <small>&ge;62em</small>
+                    </th>
+                    <th>
+                      Extra large
+                      <small>&ge;75em</small>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Grid behavior</th>
+                    <td>Horizontal at all times</td>
+                    <td colspan="4">Collapsed to start, horizontal above breakpoints</td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Container width</th>
+                    <td>None (auto)</td>
+                    <td>34rem</td>
+                    <td>45rem</td>
+                    <td>60rem</td>
+                    <td>72.25rem</td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Class prefix</th>
+                    <td><code>.col-xs-</code></td>
+                    <td><code>.col-sm-</code></td>
+                    <td><code>.col-md-</code></td>
+                    <td><code>.col-lg-</code></td>
+                    <td><code>.col-xl-</code></td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Number of columns</th>
+                    <td colspan="5">12</td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Gutter width</th>
+                    <td colspan="5">30px (15px on each side of a column)</td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Nestable</th>
+                    <td colspan="5">Yes</td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Offsets</th>
+                    <td colspan="5">Yes</td>
+                  </tr>
+                  <tr>
+                    <th class="text-nowrap" scope="row">Column ordering</th>
+                    <td colspan="5">Yes</td>
+                  </tr>
+                </tbody>
+            </table>
             
-        </style>
-        
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="script.js"></script>
-        <script>
-            // JS
-            
-            
-        </script>
-    </body>
-</html>
+        </section>
